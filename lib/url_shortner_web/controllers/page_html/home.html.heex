@@ -1,0 +1,10 @@
+<.flash_group flash={@flash} />
+    <form action="/api/createurl" method="post">
+        <label>
+            Input Url to shorten
+            <textarea name="url"></textarea>
+        </label>
+        <button type="submit">Submit </button>
+        <p><%= @url %></p>
+    </form>
+
